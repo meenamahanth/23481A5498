@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit tokens
+.env
+.env.*
+!.env.example
+
+# Logs
+logs.txt
+*.log
+npm-debug.log*
+
+# Build output
+dist/
+dist-ssr/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.sw?
